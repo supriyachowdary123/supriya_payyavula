@@ -12,7 +12,7 @@ public class LoginPageWrngPass {
 	public void Browser_Wrng_User() { 
 		
 		//Giving driver paths
-		System.setProperty("webdriver.chrome.driver",  "C:\\Users\\amma\\Desktop\\SWAGLAB_PROJECT\\Driversa\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",  "Driversa\\chromedriver.exe");
 		driver = new ChromeDriver();
 		
 		//maximizing windows

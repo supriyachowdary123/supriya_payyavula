@@ -62,7 +62,7 @@ Feature: SwagLabs Website
     Then the items are added in to the cart
 
   @SwagLabs_TS8
-  Scenario: Counting Skipping the first name
+  Scenario: Skipping the details in the checkout page
     Given we need to launch the web application
     When opening the swaglabs page using the link
     Then we need to enter the username and password

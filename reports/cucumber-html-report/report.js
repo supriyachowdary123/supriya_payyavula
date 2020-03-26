@@ -13,77 +13,77 @@ formatter.feature({
   ]
 });
 formatter.scenario({
-  "line": 31,
-  "name": "Filtering the page",
+  "line": 49,
+  "name": "Login to the website with wrong password",
   "description": "",
-  "id": "swaglabs-website;filtering-the-page",
+  "id": "swaglabs-website;login-to-the-website-with-wrong-password",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
-      "line": 30,
-      "name": "@SwagLabs_TS4"
+      "line": 48,
+      "name": "@SwagLabs_TS6"
     }
   ]
 });
 formatter.step({
-  "line": 32,
-  "name": "user launches the web application",
+  "line": 50,
+  "name": "user will launches to the webapplication.",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
-  "name": "user opens SwagLabs home page",
+  "line": 51,
+  "name": "the user is going to opens the swaglabs Homepage.",
   "keyword": "When "
 });
 formatter.step({
-  "line": 34,
-  "name": "user enters username and password",
+  "line": 52,
+  "name": "the user entered the username.",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 35,
-  "name": "user clicks the login button",
+  "line": 53,
+  "name": "the user enters wrong password.",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
-  "name": "user clicks dropdown button",
+  "line": 54,
+  "name": "clicks on the login button then the user is not navigate to the next page.",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "FilterStep.Chrome_Launch_Fail()"
+  "location": "LoginPageWrngPassStep.Chrome_Launch_Fail()"
 });
 formatter.result({
-  "duration": 25849334800,
+  "duration": 45764196200,
   "status": "passed"
 });
 formatter.match({
-  "location": "FilterStep.HomePage_Open_Fail()"
+  "location": "LoginPageWrngPassStep.HomePage_Open_Fail()"
 });
 formatter.result({
-  "duration": 4208328600,
+  "duration": 19185872700,
   "status": "passed"
 });
 formatter.match({
-  "location": "FilterStep.UserName_Enter()"
+  "location": "LoginPageWrngPassStep.UserName_Enter()"
 });
 formatter.result({
-  "duration": 1943361000,
+  "duration": 2922156000,
   "status": "passed"
 });
 formatter.match({
-  "location": "FilterStep.LoginBtn_Click_Fail()"
+  "location": "LoginPageWrngPassStep.Password_Enter_Fail()"
 });
 formatter.result({
-  "duration": 27334349700,
+  "duration": 1993427000,
   "status": "passed"
 });
 formatter.match({
-  "location": "FilterStep.Filter_Select()"
+  "location": "LoginPageWrngPassStep.LoginBtn_Click_Fail()"
 });
 formatter.result({
-  "duration": 3829989500,
+  "duration": 5734087300,
   "status": "passed"
 });
 });

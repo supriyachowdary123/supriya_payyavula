@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src\\main\\resources\\Features\\login.feature",
 		plugin = {"pretty", "html:reports/cucumber-html-report"},
-		tags = {"@SwagLabs_TS8     "},
+		tags = {"@SwagLabs_TS8"},
 		glue = {"com.steps"},
 		monochrome = true
 		)
